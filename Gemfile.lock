@@ -82,6 +82,8 @@ GEM
       em-websocket (~> 0.5.1)
       middleman-core (>= 3.3)
       rack-livereload (~> 0.3.15)
+    middleman-php (0.0.3)
+      middleman-core (>= 3.2.1)
     middleman-sprockets (3.4.2)
       middleman-core (>= 3.3)
       sprockets (~> 2.12.1)
@@ -134,5 +136,6 @@ DEPENDENCIES
   jquery-middleman
   middleman
   middleman-livereload
+  middleman-php
   tzinfo-data
   wdm (~> 0.1.0)

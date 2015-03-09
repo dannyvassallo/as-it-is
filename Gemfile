@@ -17,3 +17,7 @@ gem 'middleman-livereload'
 gem "bootstrap-sass"
 
 gem "jquery-middleman"
+
+# php
+
+gem "middleman-php"

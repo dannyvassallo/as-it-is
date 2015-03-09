@@ -2,24 +2,22 @@ $(document).ready(function($){
     $('#social-stream').dcSocialStream({
         feeds: {
             twitter: {
-                id: '/9927875,#designchemical,designchemical',
-                thumb: true
+                id: '#asitisband'
             },
-            tumblr: {
-                id: 'richters',
-                thumb: 250
+            instagram: {
+                id: '#asitisband',
+                accessToken: '186786085.91dbf99.da4d8fab71544cdba8645bd0a02f07a1',
+                clientId: '91dbf99a184e43dca3cc115500a5ba58',
+                comments: 3,
+                likes: 10,
             }
         },
         rotate: {
             delay: 0
         },
-        twitterId: 'designchemical',
-        control: false,
-        filter: true,
+        twitterId: 'dannyftf',
         wall: true,
-        cache: false,
-        max: 'limit',
-        limit: 10,
+        order: 'random',
         iconPath: 'images/dcsns-dark/',
         imagePath: 'images/dcsns-dark/'
     });

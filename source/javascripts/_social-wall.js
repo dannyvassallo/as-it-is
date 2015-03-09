@@ -6,8 +6,8 @@ $(document).ready(function($){
             },
             instagram: {
                 id: '#asitisband',
-                accessToken: '186786085.91dbf99.da4d8fab71544cdba8645bd0a02f07a1',
-                clientId: '91dbf99a184e43dca3cc115500a5ba58',
+                accessToken: '9803372.8bab54b.ca9548c405784dfa9a751f355d84efa6',
+                clientId: '8bab54bae9a64437859ca1a599e79e96',
                 comments: 3,
                 likes: 10,
             }
@@ -22,3 +22,9 @@ $(document).ready(function($){
         imagePath: 'images/dcsns-dark/'
     });
 });
+
+
+
+
+
+https://instagram.com/oauth/authorize/?client_id=8bab54bae9a64437859ca1a599e79e96&redirect_uri=http://localhost&response_type=token

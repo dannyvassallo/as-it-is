@@ -1,0 +1,28 @@
+body{
+  background: url(https://s3.amazonaws.com/myfangate.com/asitis/stars.jpg);
+  background-repeat: repeat;
+}
+.header{
+  text-align: center;
+  .head{
+    margin-top: 5%;
+    max-width: 900px;
+    width: 100%;
+  }
+}
+span.tweet-text{
+  font-size: 25px;
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing: 1px;
+}
+.twitter{
+  background-color: #00acee;
+  border-color: #0079a8;
+  &:hover{
+    background-color: #0079a8;
+    border-color: #00acee;
+  }
+}
+.text-center{
+  text-align: center;
+}

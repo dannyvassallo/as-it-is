@@ -10,7 +10,6 @@ window.twttr = (function (d, s, id) {
 
 twttr.ready(function (twttr) {
         twttr.events.bind('tweet', function (event) {
-            // Do something there
             alert("callback");
         });
         twttr.events.bind('follow', function(event) {

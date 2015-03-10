@@ -1,14 +1,28 @@
 body{
   background: url(https://s3.amazonaws.com/myfangate.com/asitis/stars.jpg);
   background-repeat: repeat;
+  color: white;
 }
 .header{
+  margin-top: 5%;
   text-align: center;
   .head{
-    margin-top: 5%;
-    max-width: 900px;
     width: 100%;
+    padding-bottom: 5%;
   }
+}
+.headline{
+  text-transform: uppercase;
+  span{
+    color: #eec897
+  }
+}
+h1{
+  font-size: 30px !important;
+  letter-spacing: 1px;
+}
+h2{
+  margin-top: -4px;
 }
 span.tweet-text{
   font-size: 25px;
@@ -18,11 +32,49 @@ span.tweet-text{
 .twitter{
   background-color: #00acee;
   border-color: #0079a8;
-  &:hover{
+  &:hover, &:active, &:focus{
     background-color: #0079a8;
     border-color: #00acee;
   }
 }
 .text-center{
   text-align: center;
+}
+.flag{
+  width: 40px;
+  margin-top: -10px;
+  margin-right: 10px;
+}
+.img-responsive{
+  margin: 0 auto;
+}
+@media (max-width: 600px) {
+  .dates{
+    .headline{
+      font-size: 25px !important;
+    }
+  }
+}
+.video{
+  border: 1px solid #eec897;
+}
+
+.divider{
+  height: 1px;
+  background-color: #eec897;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.restrict{
+  max-width: 450px;
+  margin: 0 auto;
+}
+.header .col-lg-7{
+  margin-top: 20px;
+}
+h1{
+  margin-top: -1px !important;
+}
+.itunes{
+  max-width: 200px;
 }

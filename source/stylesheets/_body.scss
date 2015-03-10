@@ -82,7 +82,6 @@ h1{
 }
 .warped{
   width: 100px;
-  margin-top: -30px;
 }
 .journeys{
   width: 100px;
@@ -99,7 +98,6 @@ h1{
   padding-top: 2%;
 }
 
-
 //BADGE
 .tweet-badge{
   position: absolute;
@@ -110,6 +108,7 @@ h1{
   img{width: 200px;}
   top: 280px;
   right: 700px;
+  cursor: pointer;
 }
 
 @media (max-width: 2440px) {
@@ -230,4 +229,10 @@ h1{
       width: 150px;
     }
   }
+  .join{
+    font-size: 25px !important;
+  }
+}
+.subtext{
+  margin-top: 50px !important;
 }

@@ -8,3 +8,47 @@
 .section-intro{
   background-color: black !important;
 }
+
+
+@media (max-width: 1200px) {
+  .dcsns-content {
+    margin-left: 125px;
+    max-width: 940px;
+  }
+}
+@media (max-width: 770px) {
+  .dcsns-content {
+    margin-left: 110px;
+    max-width: 940px;
+  }
+}
+@media (max-width: 720px) {
+  .dcsns-content {
+    margin-left: 15%;
+    max-width: 940px;
+  }
+}
+@media (max-width: 670px) {
+  .dcsns-content {
+    margin-left: 12%;
+    max-width: 940px;
+  }
+}
+@media (max-width: 600px) {
+  .dcsns-content {
+    margin-left: 10%;
+    max-width: 940px;
+  }
+}
+@media (max-width: 560px) {
+  .dcsns-content {
+    margin-left: 5%;
+    max-width: 940px;
+  }
+}
+@media (max-width: 528px) {
+  .dcsns-content {
+    margin-left: 22%;
+    max-width: 940px;
+  }
+}

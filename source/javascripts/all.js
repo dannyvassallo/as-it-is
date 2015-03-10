@@ -5,3 +5,4 @@
 //= vendor/_jquery.social.stream.wall.1.6
 //= social-wall
 //= tweet
+//= scroll

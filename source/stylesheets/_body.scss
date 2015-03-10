@@ -2,9 +2,10 @@ body{
   background: url(https://s3.amazonaws.com/myfangate.com/asitis/stars.jpg);
   background-repeat: repeat;
   color: white;
+  overflow-x: hidden;
 }
 .header{
-  margin-top: 5%;
+  margin-top: 2%;
   text-align: center;
   .head{
     width: 100%;
@@ -62,8 +63,8 @@ span.tweet-text{
 .divider{
   height: 1px;
   background-color: #eec897;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 2%;
+  margin-bottom: 3%;
 }
 .restrict{
   max-width: 450px;
@@ -90,4 +91,143 @@ h1{
 .footer{
   margin-top: 5%;
   margin-bottom: 5%;
+}
+.smaller{
+  font-size: 25px !important;
+}
+.preorder-head{
+  padding-top: 2%;
+}
+
+
+//BADGE
+.tweet-badge{
+  position: absolute;
+  z-index: 9999;
+  -ms-transform: rotate(12deg); /* IE 9 */
+  -webkit-transform: rotate(12deg); /* Chrome, Safari, Opera */
+  transform: rotate(12deg);
+  img{width: 200px;}
+  top: 280px;
+  right: 700px;
+}
+
+@media (max-width: 2440px) {
+  .tweet-badge{
+    right: 650px;
+  }
+}
+@media (max-width: 2350px) {
+  .tweet-badge{
+    right: 600px;
+  }
+}
+@media (max-width: 2250px) {
+  .tweet-badge{
+    right: 550px;
+  }
+}
+@media (max-width: 2150px) {
+  .tweet-badge{
+    right: 500px;
+  }
+}
+@media (max-width: 2100px) {
+  .tweet-badge{
+    right: 480px;
+  }
+}
+@media (max-width: 2000px) {
+  .tweet-badge{
+    right: 400px;
+  }
+}
+@media (max-width: 1850px) {
+  .tweet-badge{
+    right: 350px;
+  }
+}
+@media (max-width: 1750px) {
+  .tweet-badge{
+    right: 300px;
+  }
+}
+@media (max-width: 1650px) {
+  .tweet-badge{
+    right: 250px;
+  }
+}
+@media (max-width: 1550px) {
+  .tweet-badge{
+    right: 200px;
+  }
+}
+@media (max-width: 1450px) {
+  .tweet-badge{
+    right: 150px;
+  }
+}
+@media (max-width: 1350px) {
+  .tweet-badge{
+    right: 100px;
+  }
+}
+@media (max-width: 1250px) {
+  .tweet-badge{
+    right: 50px;
+  }
+}
+@media (max-width: 1200px) {
+  .tweet-badge{
+    top: 400px;
+    right: 120px;
+  }
+}
+@media (max-width: 990px) {
+  .tweet-badge{
+    top: 320px;
+    right: 80px;
+  }
+}
+@media (max-width: 900px) {
+  .tweet-badge{
+    top: 320px;
+    right: 0px;
+  }
+}
+@media (max-width: 700px) {
+  .tweet-badge{
+    top: 300px;
+    right: 0px;
+    img{
+      width: 150px;
+    }
+  }
+}
+@media (max-width: 700px) {
+  .tweet-badge{
+    top: 280px;
+    right: 0px;
+    img{
+      width: 150px;
+    }
+  }
+}
+@media (max-width: 590px) {
+  .tweet-badge{
+    top: 260px;
+    right: 0px;
+    img{
+      width: 150px;
+    }
+  }
+}
+@media (max-width: 440px) {
+  .tweet-badge{
+    top: 240px;
+    right: 0px;
+    img{
+      width: 150px;
+    }
+  }
 }

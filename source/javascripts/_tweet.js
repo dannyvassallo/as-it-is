@@ -10,7 +10,7 @@ window.twttr = (function (d, s, id) {
 
 twttr.ready(function (twttr) {
         twttr.events.bind('tweet', function (event) {
-            alert("callback");
+            ga('send', 'event',  'Tweet', 'Successful');
         });
         twttr.events.bind('follow', function(event) {
             var followed_user_id = event.data.user_id;

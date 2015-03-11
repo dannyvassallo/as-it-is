@@ -55,7 +55,7 @@ span.tweet-text{
 @media (max-width: 600px) {
   .dates{
     .headline{
-      font-size: 25px !important;
+      font-size: 15px !important;
     }
   }
 }
@@ -235,8 +235,8 @@ h1{
 @media (max-width: 440px) {
   .tweet-badge{
     position: absolute !important;
-    top: 450px;
-    left: 30px !important;
+    top: 370px;
+    left: 3px !important;
     img{
       width: 150px;
     }

@@ -110,7 +110,7 @@ h1{
   -webkit-transform: rotate(-12deg); /* Chrome, Safari, Opera */
   transform: rotate(-12deg);
   img{width: 200px;}
-  top: 0;
+  top: 30px;
   left: 0;
   cursor: pointer;
 }
@@ -215,30 +215,8 @@ h1{
 @media (max-width: 700px) {
   .tweet-badge{
     position: absolute !important;
-    z-index: 9999;
-    -ms-transform: rotate(12deg); /* IE 9 */
-    -webkit-transform: rotate(12deg); /* Chrome, Safari, Opera */
-    transform: rotate(12deg);
-    cursor: pointer;
-    top: 300px;
-    right: 20px !important;
-    left: auto !important;
-    img{
-      width: 150px;
-    }
-  }
-}
-@media (max-width: 700px) {
-  .tweet-badge{
-    position: absolute !important;
-    z-index: 9999;
-    -ms-transform: rotate(12deg); /* IE 9 */
-    -webkit-transform: rotate(12deg); /* Chrome, Safari, Opera */
-    transform: rotate(12deg);
-    cursor: pointer;
-    top: 270px;
-    right: 30px !important;
-    left: auto !important;
+    top: 520px;
+    left: 30px !important;
     img{
       width: 150px;
     }
@@ -247,14 +225,8 @@ h1{
 @media (max-width: 590px) {
   .tweet-badge{
     position: absolute !important;
-    z-index: 9999;
-    -ms-transform: rotate(12deg); /* IE 9 */
-    -webkit-transform: rotate(12deg); /* Chrome, Safari, Opera */
-    transform: rotate(12deg);
-    cursor: pointer;
-    top: 260px;
-    right: 20px !important;
-    left: auto !important;
+    top: 490px;
+    left: 30px !important;
     img{
       width: 150px;
     }
@@ -263,14 +235,8 @@ h1{
 @media (max-width: 440px) {
   .tweet-badge{
     position: absolute !important;
-    z-index: 9999;
-    -ms-transform: rotate(12deg); /* IE 9 */
-    -webkit-transform: rotate(12deg); /* Chrome, Safari, Opera */
-    transform: rotate(12deg);
-    cursor: pointer;
-    top: 200px;
-    right: 20px !important;
-    left: auto !important;
+    top: 450px;
+    left: 30px !important;
     img{
       width: 150px;
     }
